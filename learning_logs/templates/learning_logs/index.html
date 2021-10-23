@@ -1,0 +1,30 @@
+{% extends "learning_logs/base.html" %}
+
+
+{% block page_header %} 
+    <div class="jumbotron">
+        <h1 class="display-3">Track your learning</h1>
+
+        <p class="lead">Create your study log and keep a list of all the topics you've learned about.</p>
+
+        <a class="btn btn-lg btn-outline-secondary" href="{% url 'users:register' %}"
+            role="button">Register&raquo;</a>
+
+            <style>
+                h1 {color:#3B185F;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+                p {
+                    color: black;
+                }
+
+
+           </style>
+
+        </div>
+{% endblock page_header %}
+
+
+
+
+ 
