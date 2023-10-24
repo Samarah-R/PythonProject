@@ -1,4 +1,4 @@
 # Learning Log
-Study Log. 
-Project using Python,Django,Html and Bootstrap to create note taking web application.
-Create models,views,templates,map urls and update settings
+Project using Python and Django Framework to create note taking web application.
+
+Created models,views,templates, mapped urls to views and update settings
